@@ -43,13 +43,6 @@ title: Projects
 - Tracks popularity, geographic spread, and artist insights via API.
 - Interactive dashboards for actionable analysis.
 
-## AWS Lake Formation Data Pipeline
-- Automates end-to-end ingestion and cleansing.
-- ETL operations on AWS using Python and Athena.
-- Focus on data governance and permission management.
-
-- Tracks popularity, geographic spread, and artist insights via API.
-- Interactive dashboards for actionable analysis.
 
 ## AWS Lake Formation Data Pipeline
 - Automates end-to-end ingestion and cleansing.
