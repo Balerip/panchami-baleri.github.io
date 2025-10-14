@@ -12,7 +12,7 @@ title: Panchami Baleri
 
 # 👋 Hi, I'm Panchami Baleri
 
-Welcome to my GitHub Pages portfolio! I am a passionate **Data Engineer** with experience in building data pipelines, cloud solutions, and analytics dashboards.
+I am a passionate **Data Engineer** with experience in building data pipelines, cloud solutions, and analytics dashboards.
 
 ---
 
