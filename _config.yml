@@ -1,7 +1,6 @@
-# Jekyll Configuration for Panchami Baleri Portfolio
+# Jekyll Configuration for Panchami Baleri Portfolio (Cayman Theme)
 
-# Use the TeXt remote theme (no "theme:" line)
-remote_theme: kitian616/jekyll-TeXt-theme
+remote_theme: pages-themes/cayman@v0.2.0
 
 title: Panchami Baleri
 description: Data Engineer | AWS | Spark | Tableau
@@ -10,48 +9,41 @@ baseurl: "/panchami-baleri.github.io"
 
 author:
   name: Panchami Baleri
-  email: your.email@example.com
+  email: panchami@example.com
   github: Balerip
-  linkedin: panchami-baleri
+  linkedin: panchami-baler
 
 plugins:
   - jekyll-remote-theme
 
-# Social links (optional, customize as needed)
+# Social links for footer or contact section
 social:
   github: https://github.com/Balerip
-  linkedin: https://linkedin.com/in/panchami-baleri
-  email: your.email@example.com
+  linkedin: https://linkedin.com/in/panchami-baler
+  email: panchami@example.com
 
-# Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-# Exclude these files from build
 exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
 
-# Optional: Google Analytics or other integration
-# google_analytics: UA-XXXXXXXXX-X
-
-# Optional: Customization for TeXt theme (reference official TeXt docs for more options)
+# Optional: Navigation menu (Cayman is simple, but links can go here if you want)
 navbar:
   page:
     - name: Home
       url: /
     - name: Projects
       url: /projects/
-    - name: Blog
-      url: /blog/
     - name: Contact
       url: /contact/
 
-# Optional: If you want tags/categories
-collections:
-  projects:
-    output: true
-  blog:
-    output: true
+# To add project or blog collections, you can extend with:
+# collections:
+#   projects:
+#     output: true
+#   blog:
+#     output: true
