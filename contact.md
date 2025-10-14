@@ -2,6 +2,7 @@
 layout: default
 title: Contact
 ---
+
 <div style="margin-bottom: 2em;">
   <b>Navigation:</b>
   <a href="/">Home</a> |
@@ -13,6 +14,6 @@ title: Contact
 
 Feel free to get in touch!
 
-- **Email:** panchami@example.com
-- **GitHub:** [github.com/Balerip](https://github.com/Balerip)
-- **LinkedIn:** [linkedin.com/in/panchami-baler](https://linkedin.com/in/panchami-baler)
+- **Email:** <a href="mailto:panchami@example.com">panchami@example.com</a>
+- **GitHub:** <a href="https://github.com/Balerip">github.com/Balerip</a>
+- **LinkedIn:** <a href="https://linkedin.com/in/panchami-baler">linkedin.com/in/panchami-baler</a>
