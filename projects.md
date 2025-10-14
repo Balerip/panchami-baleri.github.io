@@ -2,6 +2,12 @@
 layout: default
 title: Projects
 ---
+<div style="margin-bottom: 2em;">
+  <b>Navigation:</b>
+  <a href="/">Home</a> |
+  <a href="/projects.html">Projects</a> |
+  <a href="/contact.html">Contact</a>
+</div>
 
 # Projects
 
