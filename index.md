@@ -2,6 +2,7 @@
 layout: default
 title: Panchami Baleri
 ---
+
 <div style="margin-bottom: 2em;">
   <b>Navigation:</b>
   <a href="/">Home</a> |
@@ -24,7 +25,7 @@ Welcome to my GitHub Pages portfolio! I am a passionate **Data Engineer** with e
 
 ---
 
-## 🛠 Projects
+## 🛠 Projects (see [Projects page](/projects.html))
 
 ### [Disaster Intelligence Engine](https://github.com/username/disaster-intelligence)
 Real-time pipeline analyzing NASA FIRMS wildfire & USGS earthquake data.  
@@ -40,9 +41,9 @@ End-to-end data ingestion, ETL, and permission management on AWS Lake Formation 
 
 ## 📩 Contact Me
 
-**Email:** panchami@example.com  
-**GitHub:** [github.com/Balerip](https://github.com/Balerip)  
-**LinkedIn:** [linkedin.com/in/panchami-baler](https://linkedin.com/in/panchami-baler)
+**Email:** <a href="mailto:panchami@example.com">panchami@example.com</a>  
+**GitHub:** <a href="https://github.com/Balerip">github.com/Balerip</a>  
+**LinkedIn:** <a href="https://linkedin.com/in/panchami-baler">linkedin.com/in/panchami-baler</a>
 
 ---
 
