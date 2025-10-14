@@ -1,3 +1,57 @@
-theme: jekyll-theme-cayman
+# Jekyll Configuration for Panchami Baleri Portfolio
+
+# Use the TeXt remote theme (no "theme:" line)
+remote_theme: kitian616/jekyll-TeXt-theme
+
 title: Panchami Baleri
 description: Data Engineer | AWS | Spark | Tableau
+url: "https://Balerip.github.io"
+baseurl: "/panchami-baleri.github.io"
+
+author:
+  name: Panchami Baleri
+  email: your.email@example.com
+  github: Balerip
+  linkedin: panchami-baleri
+
+plugins:
+  - jekyll-remote-theme
+
+# Social links (optional, customize as needed)
+social:
+  github: https://github.com/Balerip
+  linkedin: https://linkedin.com/in/panchami-baleri
+  email: your.email@example.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude these files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Optional: Google Analytics or other integration
+# google_analytics: UA-XXXXXXXXX-X
+
+# Optional: Customization for TeXt theme (reference official TeXt docs for more options)
+navbar:
+  page:
+    - name: Home
+      url: /
+    - name: Projects
+      url: /projects/
+    - name: Blog
+      url: /blog/
+    - name: Contact
+      url: /contact/
+
+# Optional: If you want tags/categories
+collections:
+  projects:
+    output: true
+  blog:
+    output: true
