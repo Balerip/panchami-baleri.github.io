@@ -1,1 +1,30 @@
+remote_theme: pages-themes/cayman@v0.2.0
+
+title: Panchami Baleri
+description: Data Engineer | AWS | Spark | Tableau
+url: "https://Balerip.github.io"
+baseurl: "/panchami-baleri.github.io"
+
+author:
+  name: Panchami Baleri
+  email: panchami@example.com
+  github: Balerip
+  linkedin: panchami-baler
+
+plugins:
+  - jekyll-remote-theme
+
+social:
+  github: https://github.com/Balerip
+  linkedin: https://linkedin.com/in/panchami-baler
+  email: panchami@example.com
+
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
 
