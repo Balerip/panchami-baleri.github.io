@@ -1,27 +1,47 @@
-/* 1) Apply the header gradient to the whole page */
-body {
-  /* Replace with your exact header gradient if different */
+/* Apply full-page gradient background */
+html, body {
+  height: 100%;
+  margin: 0;
   background: linear-gradient(135deg, #3a8fd8 0%, #35c297 100%) !important;
-  min-height: 100vh; /* ensure full height coverage */
-  margin: 0;         /* avoid body margin gaps */
+  color: #f7fafc;
+  font-family: 'Open Sans', sans-serif;
 }
 
-/* 2) Make content transparent so body gradient shows through */
-.main-content {
+/* Ensure main sections are transparent */
+.main-content, .page-header, .site-footer {
   background: transparent !important;
   box-shadow: none !important;
   border: none !important;
+  color: inherit;
 }
 
-/* 3) Optional: make the header blend seamlessly */
-.page-header {
-  background: transparent !important;  /* lets the same gradient show */
-  border-bottom: none !important;
-}
-
-/* 4) Optional: adjust text color for contrast on darker backgrounds */
-.main-content, .page-header, body {
+/* Header title styling (optional for better contrast) */
+.page-header h1, .page-header h2 {
   color: #f7fafc;
 }
-a { color: #e2e8f0; }
-a:hover { color: #ffffff; }
+
+/* Footer text */
+.site-footer {
+  color: #e2e8f0;
+  padding-top: 2rem;
+}
+
+/* Links */
+a {
+  color: #e2e8f0;
+  text-decoration: underline;
+}
+a:hover {
+  color: #ffffff;
+}
+
+/* Buttons */
+.btn {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #e2e8f0;
+  color: #e2e8f0;
+}
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
