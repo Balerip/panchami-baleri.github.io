@@ -12,19 +12,16 @@ author:
 plugins:
   - jekyll-remote-theme
 
-social:
-  github: https://github.com/Balerip
-  linkedin: https://linkedin.com/in/panchamibaleri/
-  email: panchami.baleri97@gmail.com
-
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
 
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-
 include:
   - assets
+
+# Tell Jekyll to ignore the Minimal theme’s default layout
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
