@@ -1,28 +1,46 @@
+/* === RESET DEFAULTS FROM MINIMAL THEME === */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #0a192f;
   color: #ccd6f6;
   font-family: "Inter", system-ui, sans-serif;
   line-height: 1.7;
-  margin: 0;
-  padding: 0;
-  max-width: 900px;
-  margin: auto;
+  overflow-x: hidden;
 }
 
+/* === GLOBAL WRAPPER === */
+.page-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* === NAVBAR === */
 header {
   background: #112240;
-  padding: 1rem 2rem;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .nav-logo {
   color: #64ffda;
-  font-weight: bold;
+  font-weight: 600;
   text-decoration: none;
   font-size: 1.3rem;
 }
@@ -30,26 +48,43 @@ header {
 .nav-links a {
   color: #ccd6f6;
   text-decoration: none;
-  margin: 0 1rem;
+  margin-left: 1rem;
+  font-size: 1rem;
 }
 
 .nav-links a:hover {
   color: #64ffda;
 }
 
+/* === HERO SECTION === */
 .hero {
   text-align: center;
-  padding: 6rem 1rem 3rem;
+  padding: 6rem 1rem 4rem;
 }
 
 .hero h1 {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero h2 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #8892b0;
+}
+
+.hero p {
+  margin: 1rem auto 2rem;
+  max-width: 600px;
+  font-size: 1.05rem;
+  color: #ccd6f6;
 }
 
 .accent {
   color: #64ffda;
 }
 
+/* === BUTTONS === */
 .btn, .btn-outline {
   border: 1px solid #64ffda;
   color: #64ffda;
@@ -58,7 +93,7 @@ header {
   margin: 0.5rem;
   text-decoration: none;
   display: inline-block;
-  transition: 0.3s;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {
@@ -67,17 +102,55 @@ header {
 }
 
 .btn-outline:hover {
-  background: #64ffda33;
+  background: rgba(100, 255, 218, 0.1);
 }
 
+/* === CONTENT SECTIONS === */
+main {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+main h1, main h2, main h3 {
+  color: #64ffda;
+  margin-bottom: 1rem;
+}
+
+main p {
+  margin-bottom: 1rem;
+}
+
+section {
+  margin-bottom: 3rem;
+}
+
+/* === FOOTER === */
 footer {
   text-align: center;
-  padding: 2rem;
+  padding: 2rem 1rem;
   border-top: 1px solid #233554;
-  margin-top: 3rem;
+  background: #0a192f;
+  font-size: 0.9rem;
 }
 
 footer a {
   color: #64ffda;
   text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* === RESPONSIVE FIXES === */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .nav-links {
+    margin-top: 0.5rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
 }
