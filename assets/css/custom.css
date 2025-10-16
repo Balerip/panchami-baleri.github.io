@@ -1,4 +1,11 @@
+body {
+  background: linear-gradient(135deg, #3a8fd8 0%, #35c297 100%) !important;
+}
+
+/* Make main content transparent */
 .main-content {
-  background: linear-gradient(135deg, #e6f0ff 0%, #f0fff4 100%) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
 }
 
