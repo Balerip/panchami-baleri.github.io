@@ -6,6 +6,8 @@
 {% seo %}
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
 
@@ -34,7 +36,12 @@
       {{ content }}
 
       <footer class="site-footer">
-        
+          <p>Connect with me:</p>
+          <ul style="list-style: none; padding: 0;">
+            <li><a href="{{ site.social.github }}">GitHub</a></li>
+            <li><a href="{{ site.social.linkedin }}">LinkedIn</a></li>
+            <li><a href="mailto:{{ site.social.email }}">Email</a></li>
+          </ul>
       </footer>
     </main>
   </body>
