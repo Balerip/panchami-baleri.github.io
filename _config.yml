@@ -2,21 +2,19 @@ remote_theme: pages-themes/cayman@v0.2.0
 
 title: Panchami Baleri
 description: Data Engineer | AWS | Spark | Tableau
-url: "https://Balerip.github.io"
-baseurl: "/panchami-baleri.github.io"
 
 author:
   name: Panchami Baleri
-  email: panchami@example.com
+  email: panchami.baleri97@gmail.com
   github: Balerip
-  linkedin: panchami-baler
+  linkedin: panchamibaleri
 
 plugins:
   - jekyll-remote-theme
 
 social:
   github: https://github.com/Balerip
-  linkedin: https://linkedin.com/in/panchami-baler
+  linkedin: https://linkedin.com/in/panchamibaleri/
   email: panchami@example.com
 
 markdown: kramdown
