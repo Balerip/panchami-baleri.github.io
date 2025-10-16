@@ -1,46 +1,41 @@
 ---
-layout: default
+layout: landing
 title: Panchami Baleri
 ---
+# 👋 Hi, I'm Panchami Baleri
 
-<div style="margin-bottom: 2em;">
-  <b>Navigation:</b>
-  <a href="/">Home</a> |
-  <a href="/projects.html">Projects</a> |
-  <a href="/contact.html">Contact</a>
-</div>
-
-
-
-## 🧑‍💻 Skills
-
-- **Data Engineering:** Spark, Python, SQL, ETL pipelines
-- **Cloud & DevOps:** AWS (S3, Lambda, Glue, SageMaker)
-- **Analytics & Visualization:** Tableau, Power BI
-- **Databases & Big Data:** PostgreSQL, Redshift, Snowflake
+I’m a **Data Engineer** with a passion for building scalable data pipelines, cloud solutions, and analytics dashboards.
 
 ---
 
-## 🛠 Projects (see [Projects page](/projects.html))
+## 🚀 Skills
+
+- **Data Engineering:** Spark, Python, SQL, ETL
+- **Cloud:** AWS (S3, Lambda, Glue, SageMaker)
+- **Analytics:** Tableau, Power BI
+- **Databases:** PostgreSQL, Redshift, Snowflake
+
+---
+
+## 🛠 Projects
 
 ### [Disaster Intelligence Engine](https://github.com/username/disaster-intelligence)
-Real-time pipeline analyzing NASA FIRMS wildfire & USGS earthquake data.  
-Includes Spark processing, PostgreSQL storage, and GenAI alerts.
+Real-time pipeline for NASA wildfire & USGS earthquake data, with GenAI alerts.
 
-### [Spotify Analytics Dashboard](https://github.com/username/spotify-dashboard)
-Interactive Tableau dashboard visualizing Spotify streaming trends, popularity, and track insights with live API integration.
+### [Spotify Dashboard](https://github.com/username/spotify-dashboard)
+Live Tableau dashboard analyzing Spotify streaming trends.
 
-### [AWS Lake Formation Data Pipeline](https://github.com/username/aws-lake-formation)
-End-to-end data ingestion, ETL, and permission management on AWS Lake Formation using Python and Athena.
-
----
-
-## 📩 Contact Me
-
-**Email:** <a href="mailto:panchami@example.com">panchami@example.com</a>  
-**GitHub:** <a href="https://github.com/Balerip">github.com/Balerip</a>  
-**LinkedIn:** <a href="https://linkedin.com/in/panchami-baler">linkedin.com/in/panchami-baler</a>
+### [AWS Lake Formation Pipeline](https://github.com/username/aws-lake-formation)
+End-to-end ETL and permissions with AWS Lake Formation + Athena.
 
 ---
 
-> “Data is the new oil, and I love refining it into actionable insights.”
+## 📬 Contact
+
+[![GitHub](https://img.shields.io/badge/GitHub-@Balerip-333?style=flat&logo=github&logoColor=white)](https://github.com/Balerip)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-panchamibaleri-blue?style=flat&logo=linkedin)](https://linkedin.com/in/panchamibaleri)  
+📧 [Email me](mailto:panchami.baleri97@gmail.com)
+
+---
+
+> “Data is the new oil — I love refining it into insights.”
