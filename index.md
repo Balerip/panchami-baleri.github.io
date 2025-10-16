@@ -10,11 +10,7 @@ title: Panchami Baleri
   <a href="/contact.html">Contact</a>
 </div>
 
-# 👋 Hi, I'm Panchami Baleri
 
-I am a passionate **Data Engineer** with experience in building data pipelines, cloud solutions, and analytics dashboards.
-
----
 
 ## 🧑‍💻 Skills
 
