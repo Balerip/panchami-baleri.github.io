@@ -15,7 +15,7 @@ plugins:
 social:
   github: https://github.com/Balerip
   linkedin: https://linkedin.com/in/panchamibaleri/
-  email: panchami@example.com
+  email: panchami.baleri97@gmail.com
 
 markdown: kramdown
 highlighter: rouge
@@ -25,4 +25,3 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
-
