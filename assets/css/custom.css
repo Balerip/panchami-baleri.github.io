@@ -1,11 +1,27 @@
+/* 1) Apply the header gradient to the whole page */
 body {
+  /* Replace with your exact header gradient if different */
   background: linear-gradient(135deg, #3a8fd8 0%, #35c297 100%) !important;
+  min-height: 100vh; /* ensure full height coverage */
+  margin: 0;         /* avoid body margin gaps */
 }
 
-/* Make main content transparent */
+/* 2) Make content transparent so body gradient shows through */
 .main-content {
   background: transparent !important;
   box-shadow: none !important;
   border: none !important;
 }
 
+/* 3) Optional: make the header blend seamlessly */
+.page-header {
+  background: transparent !important;  /* lets the same gradient show */
+  border-bottom: none !important;
+}
+
+/* 4) Optional: adjust text color for contrast on darker backgrounds */
+.main-content, .page-header, body {
+  color: #f7fafc;
+}
+a { color: #e2e8f0; }
+a:hover { color: #ffffff; }
